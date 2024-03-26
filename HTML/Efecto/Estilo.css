@@ -1,0 +1,266 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Quicksand', sans-serif;
+}
+body{
+	background-image: url("SubliMAR.png");
+	background-position: center;
+	background-size: 100%;
+	min-height: 100vh;
+}
+
+.mainBox h1{
+	position: relative;
+
+}
+.mainBox{
+	position: relative;
+	margin: auto;
+	padding: 50px;
+	width: 1000px;
+	bottom: 50px;
+	height: 500px;
+}
+
+.boxGeneral{
+	display: flex;
+	flex-wrap: wrap;
+	
+}
+.boxGeneral a{
+	text-decoration: none;
+	color: black;
+}
+.Box1,.Box2,.Box3,.Box4,.Box5,.Box6, .boxGeneral i, .boxGeneral p{
+	position: relative;
+	z-index: 100;
+	transition: all 300ms;
+	font-size: 12px;
+	padding: 6px;
+}
+
+.boxGeneral i{
+	font-size: 40px;
+	color: beige;
+	transition: all 300ms;
+}
+
+.Box1,.Box2,.Box3,.Box4,.Box5,.Box6{
+	width: 250px;
+	height: 180px;
+	padding: 20px;
+	margin: 20px;
+	text-align: center;
+	position: relative;
+	overflow: hidden;
+	cursor: pointer;
+	transition: all 300ms;
+	border: 1px solid beige;
+
+
+}
+
+.boxGeneral p{
+	opacity: 0;
+}
+.boxGeneral h4{
+	position: relative;
+	z-index: 1;
+	
+	transition: all 300ms;
+	font-size: 20px;
+}
+
+.Box1:hover h4,.Box2:hover h4,.Box3:hover h4,.Box4:hover h4,.Box5:hover h4,.Box6:hover h4,.Box1:hover h4{
+	transform: translateY(40px);
+	opacity: 0;
+}
+.Box1:hover p,.Box2:hover p,.Box3:hover p,.Box4:hover p,.Box5:hover p,.Box6:hover p,.Box1:hover p{
+	opacity: 1;
+	font-size: 20px;
+}
+
+.Box1:hover i{
+	font-size: 60px;
+	color: #9a46e9;
+}
+.Box2:hover i{
+	font-size: 60px;
+	color: #FFE001;
+}
+.Box3:hover i{
+	font-size: 60px;
+	color: #01FFFB;
+}
+.Box4:hover i{
+	font-size: 60px;
+	color: #FB01FF;
+}
+.Box5:hover i{
+	font-size: 60px;
+	color: #0146FF;
+}
+.Box6:hover i{
+	font-size: 60px;
+	color: #01FF8F;
+}
+.Box1:hover i{
+	font-size: 60px;
+	color: #B201FF;
+}
+
+.boxGeneral .BackgroundEffect1{
+	width:	100px;
+	height: 100px;
+	top: 250px;
+	left: 310px;
+	position: absolute;
+	background: red;
+	border-radius: 100%;
+	transition: all 600ms;
+	background: linear-gradient(to bottom, #DAF7A6, #C70039);
+}
+.boxGeneral .BackgroundEffect2{
+	width:	100px;
+	height: 100px;
+	top: 150px;
+	left: 310px;
+	position: absolute;
+	background: red;
+	border-radius: 100%;
+	transition: all 600ms;
+	background: linear-gradient(to bottom, #09FF2A, #09FFC3);
+}
+.boxGeneral .BackgroundEffect3{
+	width:	100px;
+	height: 100px;
+	top: -150px;
+	left: 510px;
+	position: absolute;
+	background: red;
+	border-radius: 100%;
+	transition: all 600ms;
+	background: linear-gradient(to bottom, #B42BDD, #002BFF);
+}
+.boxGeneral .BackgroundEffect4{
+	width:	100px;
+	height: 100px;
+	top: -150px;
+	left: -210px;
+	position: absolute;
+	background: red;
+	border-radius: 100%;
+	transition: all 600ms;
+	background: linear-gradient(to bottom, #00FFF7, #DD2B79);
+}
+.boxGeneral .BackgroundEffect5{
+	width:	100px;
+	height: 100px;
+	top: -150px;
+	left: 310px;
+	position: absolute;
+	background: red;
+	border-radius: 100%;
+	transition: all 600ms;
+	background: linear-gradient(to bottom, #F51C1C, #F5A21C);
+}
+.boxGeneral .BackgroundEffect6{
+	width:	100px;
+	height: 100px;
+	top: -120px;
+	left: 210px;
+	position: absolute;
+	background: red;
+	border-radius: 100%;
+	transition: all 600ms;
+	background: linear-gradient(to bottom, #00FFF7, #002BFF);
+}
+
+.Box1:hover .BackgroundEffect1{
+	width: 400px;
+	height: 400px;
+	top: -70px;
+	left: -71px;
+}
+.Box2:hover .BackgroundEffect2{
+	width: 400px;
+	height: 400px;
+	top: -70px;
+	left: -71px;
+}
+.Box3:hover .BackgroundEffect3{
+	width: 400px;
+	height: 400px;
+	top: -70px;
+	left: -71px;
+}
+.Box4:hover .BackgroundEffect4{
+	width: 400px;
+	height: 400px;
+	top: -70px;
+	left: -71px;
+}
+.Box5:hover .BackgroundEffect5{
+	width: 400px;
+	height: 400px;
+	top: -70px;
+	left: -71px;
+}
+.Box6:hover .BackgroundEffect6{
+	width: 400px;
+	height: 400px;
+	top: -70px;
+	left: -71px;
+}
+
+.Box1:hover{
+	transform: translate(5px, -5px);
+
+	
+}
+.Box2:hover{
+	transform: translate(5px, -5px);
+
+}
+.Box3:hover{
+	transform: translate(5px, -5px);
+
+}
+.Box4:hover{
+	transform: translate(5px, -5px);
+
+}
+.Box5:hover{
+	transform: translate(5px, -5px);
+
+}
+.Box6:hover{
+	transform: translate(5px, -5px);
+
+}
+
+
+.descrMain{
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	border-top: 1px solid pink;
+	background: black;
+	text-align: center;
+	margin-top: AUTO;
+	box-shadow: 2px -3px 2px #230018;
+}
+.descrMain ul{
+	padding: 10px;
+	margin: 10px;
+	list-style: none;
+}
+.descrMain ul li{
+	display: inline;
+}
+.descrMain ul li p{
+	color: white;
+	padding: 10px;
+}
